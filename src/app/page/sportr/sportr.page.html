@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-toolbar color="danger">
+        <ion-title>Sport Results</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="background-image">
+    <ion-card>
+        <h2>Score:{{score}}/5</h2>
+        <h2>Answers:</h2>
+        {{r}}<br> {{r1}}
+        <br> {{r2}}
+        <br> {{r3}}
+        <br> {{r4}}
+        <br>
+    </ion-card>
+    <div class="button">
+        <ion-button color="danger" [routerLink]="['/home']">BACK</ion-button>
+        <ion-button color="danger" [routerLink]="['/sportc']">START AGAIN</ion-button>
+        <ion-button color="danger" (click)="show()" [disabled]="disabled">Show Total</ion-button>
+    </div>
+
+</ion-content>
