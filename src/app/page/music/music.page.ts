@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./music.page.scss'],
 })
 export class MusicPage implements OnInit {
-
+ score:number;
   constructor() { }
 
   ngOnInit() {

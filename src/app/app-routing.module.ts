@@ -14,6 +14,7 @@ const routes: Routes = [
   { path: 'foodc', loadChildren: './page/foodc/foodc.module#FoodcPageModule' },
   { path: 'musicc', loadChildren: './page/musicc/musicc.module#MusiccPageModule' },
   { path: 'sportc', loadChildren: './page/sportc/sportc.module#SportcPageModule' },
+  { path: 'total', loadChildren: './page/total/total.module#TotalPageModule' },
 ];
 
 @NgModule({

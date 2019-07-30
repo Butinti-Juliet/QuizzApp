@@ -3,7 +3,7 @@
 }
 
 .background-image {
-    --background: url("foodd.jpg") 0 0/100% 100% no-repeat;
+    --background: url("grape.jpg") 0 0/100% 100% no-repeat;
 }
 
 ion-title {
@@ -15,7 +15,7 @@ h1 {
     text-align: center;
     // font-family: verdana;
     font-family: Apple Chancery, cursive;
-    color: white;
+    color: black;
 }
 
 ion-card {
@@ -24,5 +24,6 @@ ion-card {
 
 p {
     font-family: Courier, monospace;
-    color: white;
+    color: black;
+    background-color: white;
 }
