@@ -6,14 +6,22 @@
     </ion-toolbar>
 </ion-header>
 
-<ion-content class="background-image">
+<ion-content>
 
 
+
+    <ion-grid>
+        <ion-row>
+
+            <ion-col>
+                <img src="assets/q.jpg" alt="Trulli" width="650" height="600">
+
+            </ion-col>
+        </ion-row>
+    </ion-grid>
     <div class="button">
         <ion-button shape="round" size="large" color="secondary" [routerLink]="['/foodc']">FOOD</ion-button>
         <ion-button shape="round" size="large" color="warning" [routerLink]="['/musicc']">MUSIC</ion-button>
         <ion-button shape="round" size="large" color="success" [routerLink]="['/sportc']">SPORT</ion-button>
     </div>
-
-
 </ion-content>
